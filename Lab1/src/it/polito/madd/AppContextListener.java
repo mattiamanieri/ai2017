@@ -18,7 +18,7 @@ public class AppContextListener implements ServletContextListener, HttpSessionLi
 	
 	public void contextInitialized(ServletContextEvent e){
 		//ArrayList<Ticket> Tickets = new ArrayList<Ticket>;
-		e.getServletContext().setAttribute("TicketList", Tickets);
+		//e.getServletContext().setAttribute("TicketList", Tickets);
 	}
 
     public void sessionCreated(HttpSessionEvent se) {
